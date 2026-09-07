@@ -1,7 +1,7 @@
 {
     "name": "tollwerk/tw-backend-auth",
     "type": "typo3-cms-extension",
-    "description": "Extend TYPO3 Backend Authentication, add IP-Check for Admins etc.",
+    "description": "Restrict backend authentication to given IP addresses",
     "license": "GPL-3.0-or-later",
     "keywords": [
         "TYPO3",
@@ -19,7 +19,8 @@
     ],
     "homepage": "https://tollwerk.de",
     "require": {
-        "typo3/cms-core": "^12"
+        "typo3/cms-core": "^12.4 || ^13.4",
+        "php": ">=8.3"
     },
     "autoload": {
         "psr-4": {
@@ -29,9 +30,6 @@
     "extra": {
         "typo3/cms": {
             "extension-key": "tw_backend_auth"
-        },
-        "branch-alias": {
-            "dev-master": "12.0.x-dev"
         }
     }
 }
