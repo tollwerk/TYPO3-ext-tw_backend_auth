@@ -1,7 +1,8 @@
 # tollwerk Backend Authentication for TYPO3
 
-[![TYPO3](https://img.shields.io/badge/TYPO3-12-green.svg)](https://get.typo3.org/version/12)
-[![TYPO3](https://img.shields.io/badge/License-GPL%203%20or%20later-lightgray.svg)](https://get.typo3.org/version/12)
+[![TYPO3 12](https://img.shields.io/badge/TYPO3-12-green.svg)](https://get.typo3.org/version/12)
+[![TYPO3 13](https://img.shields.io/badge/TYPO3-13-green.svg)](https://get.typo3.org/version/13)
+[![GNU General Public License](https://img.shields.io/badge/License-GPL%203%20or%20later-lightgray.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 Extends the TYPO3 backend authentication to restrict admins and regular backend users to given IP addresses.
 
