@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2026-09-07T12:00:00Z" product-name="tw_backend_auth">
+        <header />
+        <body>
+            <trans-unit id="ext_conf_template.allowed_ips.admin_users">
+                <source>Admin allowed IP addresses:Administrators only can log in from one of the followin IP addresses. You can set multiple addresses like '127.0.0.1, 192.168.0.1'. Set to '*' or leave empty to allow all addresses.</source>
+            </trans-unit>
+            <trans-unit id="ext_conf_template.allowed_ips.regular_users">
+                <source>Regular users allowed IP addresses:Regular, non-admin users only can log in from one of the followin IP addresses. You can set multiple addresses like '127.0.0.1, 192.168.0.1'. Set to '*' or leave empty to allow all addresses.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
