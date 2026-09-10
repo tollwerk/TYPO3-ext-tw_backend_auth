@@ -5,9 +5,11 @@
         <body>
             <trans-unit id="ext_conf_template.allowed_ips.admin_users">
                 <source>Admin allowed IP addresses:Administrators only can log in from one of the followin IP addresses. You can set multiple addresses like '127.0.0.1, 192.168.0.1'. Set to '*' or leave empty to allow all addresses. Supports CIDR notation like '10.1.1.0/24' for IP ranges.</source>
+                <target>Admins auf IP-Adressen beschränken:Administratoren können sich nur anmelden, wenn sie eine der hier eingetragenen IP-Adressen haben. Es können mehrere Adressen hinterlegt werden wie '127.0.0.1, 192.168.0.1'. Mit '*' oder einem leeren Eingabefeld gibt es keine IP-Beschränkung. Unterstützt die CIDR-Notation wie '10.1.1.0/24', um ganze IP-Bereiche zuzulassen.</target>
             </trans-unit>
             <trans-unit id="ext_conf_template.allowed_ips.regular_users">
                 <source>Regular users allowed IP addresses:Regular, non-admin users only can log in from one of the followin IP addresses. You can set multiple addresses like '127.0.0.1, 192.168.0.1'. Set to '*' or leave empty to allow all addresses. Supports CIDR notation like '10.1.1.0/24' for IP ranges.</source>
+                <target>Nicht-Admins auf IP-Adressen beschränken:Normale TYPO3-Benutzer können sich nur anmelden, wenn sie eine der hier eingetragenen IP-Adressen haben. Es können mehrere Adressen hinterlegt werden wie '127.0.0.1, 192.168.0.1'. Mit '*' oder einem leeren Eingabefeld gibt es keine IP-Beschränkung. Unterstützt die CIDR-Notation wie '10.1.1.0/24', um ganze IP-Bereiche zuzulassen.</target>
             </trans-unit>
         </body>
     </file>
